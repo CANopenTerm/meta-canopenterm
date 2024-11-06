@@ -14,7 +14,7 @@ python do_display_banner() {
 addtask display_banner before do_build
 
 SRC_URI = "git://github.com/CANopenTerm/CANopenTerm.git;protocol=https;branch=main"
-SRCREV  = "5dc182c8d798768548b5667272d83b21c2d0a4b3"
+SRCREV  = "0f6151fc79a31f6bf39413436ea0b2f898f9ce0c"
 
 S = "${WORKDIR}/git"
 
